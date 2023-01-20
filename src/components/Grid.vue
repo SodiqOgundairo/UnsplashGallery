@@ -1,14 +1,15 @@
 <template>
-  <div class="row">
-  <div class="col-6 col-md-4 col-lg-3 mb-3 rounded-3"
+  <!-- <div class="grid-item"> -->
+  <div class=" col-md-4 col-lg-3 mb-3 rounded-3"
         v-for="items in unsplashImages"
         :key="items">
+  <!-- <div class="grid-column" -->
       <div
-        class="text-white border-0 rounded-3 position-relative"
+        class="img text-white border-0 rounded-3 position-relative"
       >
         <img
           :src="items.urls.regular"
-          class="img-fluid car-img"
+          class="img-fluid w-100 h-100"
           :alt="items.alt_description"
         />
         <div
@@ -17,10 +18,10 @@
           <small class="fw-light font-12">color: {{ items.color }}</small>
         </div>
         <div
-          class="position-absolute bottom-0 w-100 h-auto p-3 glass bg-secondary bg-opacity-75"
+          class="position-absolute bottom-0 w-100 h-auto p-1 glass bg-secondary bg-opacity-75"
         >
           <div
-            class="border-start border-3 ps-2 border-success h-100 d-flex justify-content-between align-items-center"
+            class="border-start border-3 m-2 px-2 border-success h-100 d-flex justify-content-between align-items-center"
           >
             <p class="d-flex flex-column">
                IMAGE TITLE
@@ -43,7 +44,7 @@
         </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 </template>
 
 <script>

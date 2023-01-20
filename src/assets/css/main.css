@@ -33,6 +33,24 @@ body {
     line-height: 0px;
   }
 
+  @media screen and (max-width: 450px) {
+    .font-sm-12 {
+      font-size: 14px !important;
+      margin: auto;
+      display: block;
+    }
+    .font-sm-10 {
+      font-size: 2px !important;
+      margin: auto;
+      display: block;
+    }
+
+    .icon{
+      display: none !important;
+    }
+
+  }
+
   .feed::after{
     content: '';
     position: absolute;
@@ -54,3 +72,31 @@ body {
     top: 2%;
     right: 2%;
   }
+
+  .bag {
+    bottom: 48%;
+    width: 110px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(0, 1fr);
+    grid-auto-rows: minimax(150px, auto);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-auto-flow: dense;
+    }
+
+    /* .grid-column {
+      min-height: 100px;
+      max-height: 200px;
+    } */
+  
+    /* .grid-column>.img {
+      object-fit: cover;
+      object-position: center;
+      width: max-content;
+      height: max-content;
+    } */
+  

@@ -125,15 +125,8 @@
 
     </div>
 
-    <div class="container-fuid px-4">
-        <!-- <div class="row"> -->
-            <!-- <div class="d-flex flex-column"> -->
-            <Grid :unsplashImages='unsplashImages' />    
-            <!-- <Grid :unsplashImages='unsplashImages' />     -->
-            <!-- <Grid :unsplashImages='unsplashImages' />     -->
-            <!-- <Grid :unsplashImages='unsplashImages' />     -->
-        <!-- </div> -->
-    <!-- </div> -->
+    <div class="row px-4">
+            <Grid :unsplashImages='unsplashImages' />  
 </div>
 </template>
 

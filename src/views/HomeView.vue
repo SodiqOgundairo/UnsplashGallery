@@ -3,7 +3,11 @@
     <!-- <div class="row flex-nowrap"> -->
     <div class="d-flex">
       <Sidebar />
-      <Main />
+      .col-8.float-end
+      <div class="col-sm-9 col-md-10 col ms-auto">
+
+        <Main />
+      </div>
     </div>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <main class="w-100">
+  <main class="w-100 main">
     <div class="row gap-3 m-auto border-bottom w-100 px-4 mb-3 py-3">
       <div class="col-md-4 text-white">
         <h2 class="mb-0">Dashboard</h2>
@@ -12,7 +12,7 @@
             </router-link>
           </div>
           <div class="col-md-6">
-            <router-link to="/" class="text-decoration-none text-white h4 mb-0">
+            <router-link to="/edit" class="text-decoration-none text-white h4 mb-0">
               Edit
             </router-link>
           </div>
@@ -138,4 +138,11 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+  /*.main {
+max-width: 70% !important;
+  float: right !important;
+ margin-right: auto !important;
+
+}*/
+</style>
