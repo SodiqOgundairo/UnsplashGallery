@@ -2,7 +2,7 @@
     <!-- <div class="container-fluid"> -->
         <!-- <div class="row flex-nowrap"> -->
             <div class="col-auto col-md-3 col-xl-2 px-sm-2  px-0 bg-none border-right">
-                <div class="d-flex flex-column align-items-center my-4 align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                <div class="d-flex flex-column align-items-center my-3 align-items-sm-start px-3 pt-2 text-white min-vh-100">
                     <a href="/" class="d-flex justify-content-between align-items-center pb-4 mb-md-3 me-md-auto text-white text-decoration-none border-bottom w-100">
                     <span class="fs-6 d-none d-sm-inline">STGallery</span>
                     <i class=' fs-4 ms-auto bx bx-left-arrow-alt text-success'></i>
@@ -46,19 +46,19 @@
                     
                    <a href="/" class="d-flex justify-content-between align-items-center pb-0 mb-md-3 me-md-auto text-white text-decoration-none">
                     
-                       <i class=' ms-auto bx bx-left-arrow-alt text-success'></i>
+                       <i class=' ms-auto bx bx-compass text-success'></i>
                     <span class="font-13 d-none d-sm-inline">Explore</span>
                 </a>
 
                    <a href="/" class="d-flex justify-content-between align-items-center pb-0 mb-md-3 me-md-auto text-white text-decoration-none">
                     
-                       <i class=' ms-auto bx bx-left-arrow-alt text-success'></i>
+                       <i class=' ms-auto bx bx-bookmark-alt-plus text-success'></i>
                     <span class=" font-13 d-none d-sm-inline">Bookmark</span>
                 </a>
 
                    <a href="/" class="d-flex justify-content-between align-items-center pb-0 mb-md-3 me-md-auto text-white text-decoration-none">
                     
-                       <i class='  ms-auto bx bx-left-arrow-alt text-success'></i>
+                       <i class='  ms-auto bx bx-download text-success'></i>
                     <span class=" font-13 d-none d-sm-inline">Downloads</span>
                 </a>
 
@@ -78,13 +78,13 @@
                     
                     <a href="/" class="d-flex justify-content-between align-items-center pb-0 mb-md-3 me-md-auto text-white text-decoration-none">
                      
-                        <i class='ms-auto bx bx-left-arrow-alt text-success'></i>
+                        <i class='ms-auto bx bx-cog text-success'></i>
                      <span class="font-13 d-none d-sm-inline">Settings</span>
                  </a>
  
                     <a href="/" class=" d-flex justify-content-between align-items-center pb-0 mb-md-3 me-md-auto text-white text-decoration-none">
                      
-                        <i class='ms-auto bx bx-left-arrow-alt text-success'></i>
+                        <i class='ms-auto bx bx-error-circle text-success'></i>
                      <span class=" font-13 d-none d-sm-inline">Help</span>
                  </a>
  

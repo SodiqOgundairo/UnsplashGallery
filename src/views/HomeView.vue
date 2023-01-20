@@ -1,9 +1,9 @@
 <template>
-  <div class="container-fluid">
-    <div class="row flex-nowrap">
+  <div class="">
+    <!-- <div class="row flex-nowrap"> -->
+    <div class="d-flex">
       <Sidebar />
       <Main />
-
     </div>
   </div>
 </template>
