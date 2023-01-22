@@ -7,16 +7,11 @@ const routes = [
     name: 'home',
     component: HomeView
   },
-  {
-    path: '/feed',
-    name: 'feed',
-    component: () => import(/* webpackChunkName: "feed" */ '../components/Feed.vue')
-  },
-  {
-    path: '/edit',
-    name: 'edit',
-    component: () => import(/* webpackChunkName: "edit" */ '../components/Edit.vue')
-  }
+  // {
+  //   path: '/feed',
+  //   name: 'feed',
+  //   component: () => import(/* webpackChunkName: "feed" */ '../components/Feed.vue')
+  // },
 ]
 
 const router = createRouter({

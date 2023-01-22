@@ -4,7 +4,7 @@
     <div class="d-flex">
       <Sidebar />
       .col-8.float-end
-      <div class="col-sm-9 col-md-10 col ms-auto">
+      <div class="col-sm-8 col-md-10 col ms-auto">
 
         <Main />
       </div>

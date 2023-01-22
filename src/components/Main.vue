@@ -12,7 +12,7 @@
             </router-link>
           </div>
           <div class="col-md-6">
-            <router-link to="/edit" class="text-decoration-none text-white h4 mb-0">
+            <router-link to="/" class="text-decoration-none text-white h4 mb-0">
               Edit
             </router-link>
           </div>
@@ -40,16 +40,12 @@
 
     <Feed :unsplashImages="unsplashImages" />
 
-    <!-- </div> -->
-    <!-- </div> -->
   </main>
 </template>
 
 <script>
-// import axios from "axios";
 import Feed from "../components/Feed";
 import { mapState, mapActions} from 'vuex'
-// import store from './store'
 
 export default {
   name: "Main-vue",
@@ -60,7 +56,6 @@ export default {
   data() {
     return{
       search: '',
-      // unsplashImages: null,
       
     }
   },
@@ -83,66 +78,9 @@ export default {
   created() {
     this.getImages()
   },
-
-  // watch: {
-  //   search: {
-  //     immediate: true,
-  //     handler: function(searchTerm) {
-  //     }
-  //   }
-  // }
-
-
-
-
-  
-  // mounted() {
-  //   var config = {
-  //     method: "get",
-  //     url: "https://api.unsplash.com/photos?page=1&per_page=10&client_id=jxOoWtaxCkvo7JKNS8rNH8fgU2C__GWiYkM_ddZ1e6g&page=1",
-  //     headers: {},
-  //   };
-
-  //   axios(config)
-  //     .then((response) => {
-  //       console.log(response.data);
-  //       this.unsplashImages = response.data;
-  //       //   console.log(JSON.stringify(response.data));
-  //     })
-  //     .catch((error) => {
-  //       console.log(error);
-  //     });
-  // },
-
-  // methods: {
-  //   handleSubmit() {
-  //       console.log(this.search)
-  //     var config = {
-  //       method: "get",
-  //       url: `https://api.unsplash.com/search/photos?page=1&per_page=4&query=${this.search}&client_id=jxOoWtaxCkvo7JKNS8rNH8fgU2C__GWiYkM_ddZ1e6g&page=1`,
-  //       headers: {},
-  //     };
-
-  //     axios(config)
-  //       .then((response) => {
-  //         console.log(response.data);
-  //         this.unsplashImages = response.data.results;
-  //         //   console.log(JSON.stringify(response.data));
-  //       })
-  //       .catch((error) => {
-  //         console.log(error);
-  //       });
-  //   },
-  // },
   
 };
 </script>
 
 <style scoped>
-  /*.main {
-max-width: 70% !important;
-  float: right !important;
- margin-right: auto !important;
-
-}*/
 </style>
