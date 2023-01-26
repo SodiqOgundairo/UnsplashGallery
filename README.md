@@ -1,4 +1,4 @@
-# app
+# STGallery build with VueJS and Boostrap using Unsplash API
 
 ## Project setup
 ```
